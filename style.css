@@ -24,162 +24,200 @@ body{
     align-items: center;
 }
 
-h1,
-h2{
-    font-weight: 700;
-}
-h1{
-    font-size: 8.8rem;
-}
-h2{
-    font-size: 4rem;
-}
+
 
 /* mobile */
 
 
     body{
         background-image: url(./assets/bg-main-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-.pattern-1{
-    display: none;
-}
-.header-logo{
-    padding: 2rem;
-    margin: 2rem 0;
-}
-.text-header{
-    text-align: left;
-    margin-left: 2rem;
-}
-header h1{
-    font-size: 5rem;
-}
-header p{
-    font-size: 2rem;
-    margin-top: 2rem;
-    
-}
-header{
-    width: 100vw;
-}
-main{
-    width: 100vw;
-}
-.black-container{
-    background-color: var(--newBlack);
-    border-radius: 1rem;
-    z-index: -10;
-    position: relative;
-    margin-top: 15rem;
-    height: 60rem;
-}
-.pattern-2{
-    max-width: 28rem;
-    position: relative;
-    left: 7.5rem;
-}
-    
-.illustration-app{
-    width: 20rem;
-    z-index: 5;
-    position: absolute;
-    top: -15%;
-    left: 11.25rem;
-}
-.orange-container{
-    background-color: var(--newOrange);
-    border-radius: 1rem;
-    z-index: 10;
-    position: relative;
-    top: -2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
+    .pattern-1{
+        display: none;
+    }
+    .header-logo{
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+    .text-header{
+        text-align: left;
+        margin-left: 2rem;
+    }
+    header h1{
+        font-size: 5rem;
+    }
+    header p{
+        font-size: 2rem;
+        margin-top: 2rem;
+        
+    }
 
-}
-.orange-container h2{
-    padding: 3rem;
-}
-.orange-container p{
-    font-size: 1.5rem;
-    padding: 3rem;
-}
-.orange-container 
-{
-    color: var(--newWhite);
-}
-.pricing{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
+    .black-container{
+        background-color: var(--newBlack);
+        border-radius: 1rem;
+        z-index: -10;
+        position: relative;
+        margin-top: 15rem;
+        height: 60rem;
+    }
+    .pattern-2{
+        max-width: 28rem;
+        position: relative;
+        left: 7.5rem;
+    }
+        
+    .illustration-app{
+        width: 20rem;
+        z-index: 5;
+        position: absolute;
+        top: -15%;
+        left: 11.25rem;
+    }
+    .orange-container{
+        background-color: var(--newOrange);
+        border-radius: 1rem;
+        z-index: 10;
+        position: relative;
+        top: -2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
 
-.orange-container span{
-    font-size: 4rem;
-    font-weight: 700;
-}
-.apple-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--newBlack);
-    color: var(--newWhite);
-    margin: 5rem 10rem;
-    border-radius: 1rem;
-    height: 5rem;
-    
-    
-}
-.apple-button img{
-    height: 2rem;
-    margin-left: 2rem;
-}
-.android-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:var(--newWhite);
-    color:var(--newBlack);
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 5rem;
-    border-radius: 1rem;
-    height: 5rem;
-    
+    }
+    .orange-container h2{
+        padding: 3rem;
+    }
+    .orange-container p{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+    .orange-container 
+    {
+        color: var(--newWhite);
+    }
+    .pricing{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
 
-}
-.android-button img{
-    height: 2rem;
-    margin-left: 2rem;
-}
-footer{
-    width: 100vw;
-    margin-top: 60rem;
-    
-}
-.footer-logo{
-    padding: 2rem;
-}
-footer p{
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-}
-footer ul{
-    display: flex;
-    gap: 1rem;
-    padding: 3rem 2rem;
-    list-style-type: none;
-}
+    .orange-container span{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .apple-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--newBlack);
+        color: var(--newWhite);
+        margin: 5rem 10rem;
+        border-radius: 1rem;
+        height: 5rem;
+        
+        
+    }
+    .apple-button img{
+        height: 2rem;
+        margin-left: 2rem;
+    }
+    .android-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--newWhite);
+        color:var(--newBlack);
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 5rem;
+        border-radius: 1rem;
+        height: 5rem;
+        
+
+    }
+    .android-button img{
+        height: 2rem;
+        margin-left: 2rem;
+    }
+    footer{
+        margin-top: 60rem;
+        
+    }
+    .footer-logo{
+        padding: 2rem;
+    }
+    footer p{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+    footer ul{
+        display: flex;
+        gap: 1rem;
+        padding: 3rem 2rem;
+        list-style-type: none;
+    }
+
 
 
 
 /* tablet */
+
+
 @media only screen and (max-width: 768px) and (orientation: portrait){
 
-    
+    body{
+        background-image: url(./assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header,
+    main,
+    footer{
+        width: 100vw;
+    }
+    .text-header{
+        width: 50rem;
+        padding-right: 5rem;
+        
+    }
+    .pattern-1{
+        display: block;
+        width: 25rem;
+        height: auto;
+        float: right;
+        position: relative;
+        top: -45rem;
+        right: -1rem;
+    }
+    .black-container{
+        width: 90%;
+        position: absolute;
+        top: 50rem;
+        left: 5%;
+    }
+    .illustration-app{
+        width: 27rem;
+        position: absolute;
+        top: -15rem;
+        left: 5rem;
+        
+    }
+    .pattern-2{
+        position: relative;
+        left: 20rem;
+    }
+    .orange-container{
+        width: 40rem;
+    }
+   
+
+        
+       
+
 
 }
 
