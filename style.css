@@ -22,22 +22,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
-/* mobile */
-
-
-    body{
-        background-image: url(./assets/bg-main-mobile.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .pattern-1{
-        display: none;
-    }
     .header-logo{
         padding: 2rem;
         margin: 2rem 0;
@@ -53,6 +44,9 @@ body{
         font-size: 2rem;
         margin-top: 2rem;
         
+    }
+    .pattern-1{
+        display: none;
     }
 
     .black-container{
@@ -164,11 +158,11 @@ body{
 
 
 
+
 /* tablet */
 
 
-@media only screen and (max-width: 768px) and (orientation: portrait){
-
+@media (min-width: 768px) {
     body{
         background-image: url(./assets/bg-main-tablet.png);
         background-repeat: no-repeat;
@@ -212,15 +206,23 @@ body{
     }
     .orange-container{
         width: 40rem;
+        position: absolute;
+        left: 20rem;
+        top: 15rem;
     }
-   
-
+    .orange-container h2{
+        font-size: 3rem;
+    }
+    .orange-container p{
+        font-size: 2rem;
+    }
+    .android-button{
         
-       
+    }
+  
 
 
-}
-
+  }
     
 
 
