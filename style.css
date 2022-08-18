@@ -34,7 +34,10 @@ h1{
 h2{
     font-size: 4rem;
 }
-@media only screen and (max-width: 425px){
+
+/* mobile */
+
+@media only screen and (max-width: 425px) and (orientation: portrait){
     body{
         background-image: url(./assets/bg-main-mobile.png);
     }
@@ -126,6 +129,7 @@ main{
     color: var(--newWhite);
     margin: 5rem 10rem;
     border-radius: 1rem;
+    height: 5rem;
     
     
 }
@@ -143,6 +147,7 @@ main{
     margin-right: 10rem;
     margin-bottom: 5rem;
     border-radius: 1rem;
+    height: 5rem;
     
 
 }
@@ -170,6 +175,13 @@ footer ul{
 }
 
 }
+
+/* tablet */
+@media only screen and (max-width: 768px) and (orientation: portrait){
+    
+
+}
+
     
 
 
