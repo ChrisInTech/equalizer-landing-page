@@ -170,7 +170,8 @@ body{
     }
     header,
     main,
-    footer{
+    footer
+    {
         width: 100vw;
     }
     .text-header{
@@ -216,9 +217,30 @@ body{
     .orange-container p{
         font-size: 2rem;
     }
-    .android-button{
+    .apple-button{
+        margin-bottom: 1rem;
+        width: 30rem;
+        margin-left: 5rem;
         
     }
+    .android-button{
+        width: 30rem;
+        margin-left: 5rem;
+    }
+    footer{
+        margin-top: 70rem;
+        margin-bottom: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info{
+        width: 50%;
+    }
+    footer span{
+        font-weight: bold;
+    }
+   
   
 
 
