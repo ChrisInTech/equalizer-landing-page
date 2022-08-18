@@ -1,3 +1,10 @@
+:root {
+    --newOrange: #fa7453;
+    --newBlack: #191826;
+    --newCyan: #66e2dc;
+    --newYellow: #ffb964;
+    --newWhite: #fcfaf9;
+  }
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 *{
     margin: 0;
@@ -28,55 +35,138 @@ h2{
     font-size: 4rem;
 }
 @media only screen and (max-width: 425px){
+    body{
+        background-image: url(./assets/bg-main-mobile.png);
+    }
 
-.text-header{
-    text-align: center;
-}
-.text-header p{
-    margin-top: 2.5rem;
-}
-header p{
- font-size: 2rem;
-}
-.header-logo,
-.footer-logo{
-    height: 3rem;
-}
 .pattern-1{
     display: none;
 }
-.black-container{
-    background-color: #191826;
-    border-radius: 1rem;
-    position: relative;
-    z-index: -10;
+.header-logo{
+    padding: 2rem;
+    margin: 2rem 0;
 }
-.illustartion-app{
-    max-height: 40rem;
-    position: absolute;
-    left: 50%;
-    bottom: 15%;
-    z-index: 5;
+.text-header{
+    text-align: left;
+    margin-left: 2rem;
+}
+header h1{
+    font-size: 5rem;
+}
+header p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+}
+header{
+    width: 100vw;
+}
+main{
+    width: 100vw;
+}
+.black-container{
+    background-color: var(--newBlack);
+    border-radius: 1rem;
+    z-index: -10;
+    position: relative;
+    margin-top: 15rem;
+    height: 60rem;
 }
 .pattern-2{
     max-width: 28rem;
-    margin: 0 auto;
-}
-.orange-container{
-    background-color:#FA7453;
-    border-radius: 1rem;
-    color: #FCFAF9;
-    padding: 3rem 1.5rem;
-    margin-top: -2rem;
-    z-index: 1;
+    position: relative;
+    left: 7.5rem;
 }
     
-.orange-container p{
-    font-size: 1.6rem;
+.illustration-app{
+    width: 20rem;
+    z-index: 5;
+    position: absolute;
+    top: -15%;
+    left: 11.25rem;
 }
+.orange-container{
+    background-color: var(--newOrange);
+    border-radius: 1rem;
+    z-index: 10;
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+.orange-container h2{
+    padding: 3rem;
+}
+.orange-container p{
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+.orange-container 
+{
+    color: var(--newWhite);
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .orange-container span{
     font-size: 4rem;
-    font-weight:900;
+    font-weight: 700;
+}
+.apple-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--newBlack);
+    color: var(--newWhite);
+    margin: 5rem 10rem;
+    border-radius: 1rem;
+    
+    
+}
+.apple-button img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+.android-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--newWhite);
+    color:var(--newBlack);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    
+
+}
+.android-button img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+footer{
+    width: 100vw;
+    margin-top: 60rem;
+    
+}
+.footer-logo{
+    padding: 2rem;
+}
+footer p{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+footer ul{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 2rem;
+    list-style-type: none;
 }
 
 }
