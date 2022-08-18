@@ -245,7 +245,7 @@ body{
 
 /* laptop */
 
-@media (max-width: 1024px){
+@media (min-width: 1000px){
     .header-logo{
         margin-left: 5rem;
         margin-top: 5rem;
@@ -280,7 +280,7 @@ body{
 
 /* desktop */
 
-@media (max-width: 1600px){
+@media (min-width: 1600px){
     .header-logo{
         margin-left: 10rem;
         margin-top: 5rem;
