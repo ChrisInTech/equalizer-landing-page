@@ -83,6 +83,7 @@ body{
 
     }
     .orange-container h2{
+        font-size: 3rem;
         padding: 3rem;
     }
     .orange-container p{
@@ -240,11 +241,89 @@ body{
     footer span{
         font-weight: bold;
     }
+}
+
+/* laptop */
+
+@media (max-width: 1024px){
+    .header-logo{
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .text-header{
+        width: 70rem;
+        margin-left: 5rem;
+    }
+    .pattern-2{
+        position: absolute;
+        left: 30rem;
+    }
+    .orange-container{
+        position: absolute;
+        left: 45rem;
+        
+    }
+    .apple-button{
+        cursor: pointer;
+    }
+    .apple-button:hover{
+        background-color: var(--newCyan);
+    }
+    .android-button{
+        cursor: pointer;
+    }
+    .android-button:hover{
+        background-color: var(--newYellow);
+    }
+    
+}
+
+/* desktop */
+
+@media (max-width: 1600px){
+    .header-logo{
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+    .text-header {
+        margin-left: 10rem;
+        width: 80%;
+    }
+    .text-header p{
+        margin-top: 5rem;
+    }
+    .pattern-1{
+        margin-top: 10rem;
+    }
+    .pattern-2{
+        margin-left: 25%;
+    }
+    .illustration-app{
+        width: 30rem;
+        position: absolute;
+        left: 30rem;
+    }
+    .orange-container{
+        position: absolute;
+        left: 75rem;
+    }
+    .footer-info{
+        display: flex;
+    }
+    .footer-logo{
+        margin-left: 10rem;
+    }
+    .footer-logo{
+        height: 7rem;
+    }
+
+}
+
+
    
   
 
 
-  }
     
 
 
